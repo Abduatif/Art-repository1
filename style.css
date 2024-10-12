@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  :root {
+    --color-green: #2F4F3E;
+    --color-green-light: #789384;
+    --color-grad-gold: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+    --color-dark: #171717;
+    --color-dark2: #1F1F1F;
+    --color-gray:#868686;
+    --color-light-beige:#ECE7E3;
+    --color-white:#ffffff;
+  }
+  body{
+    background-color: #2F4F3E;
+  }
+  .container {
+    width: 1940px;
+    margin: auto;
+  }
+  .container-fluid {
+    padding: 0 40px;
+  }
+  
+  .full-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+header {
+    padding-bottom: 100px;
+}
+
+.navbar {
+    padding: 40px 0;
+}
+
+.navbar-left {
+    gap: 155px;
+}
+
+.logo-text {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+
+.navbar-right .nav-menu {
+    gap: 60px;
+}
+
+.navbar-right .nav-menu .nav-item a {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.navbar-right .navbar-menu-btn {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    color: var(--color-white);
+
+    padding: 20px 40px;
+    border: 2px solid var(--color-green-light);
+    background-color: transparent;
+    border-radius: 31px;
+    margin: 0 96px 0 60px;
+
+    gap: 15px;
+}
+
+.navbar-right .number {
+    text-align: right;
+}
+
+.navbar-right .number .number-time,
+.navbar-right .number .number-num {
+    display: block;
+}
+
+.navbar-right .number .number-time {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+
+    color: var(--color-green-light);
+}
+
+.navbar-right .number .number-num {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+
+    color: var(--color-white);
+}
+.section1{
+    width: 1450px;
+    margin: auto;
+}
+.text-info{
+    display: flex;
+    gap: 25px;
+}
+.text1{
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: center;
+    display: flex;
+    
+
+    color: var(--color-green-light);
+}
+.textp{
+    color: #ECE7E3;
+}
+.text2{
+    margin-top: 20px;
+    font-family: Futura PT;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150px;
+    text-align: left;
+
+}
+.section2{
+    width: 1400px;
+    margin: auto; 
+}
+
+.text3{
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 91px;
+    text-align: left;
+    font-family: Futura PT;
+    color: #ECE7E3;
+
+}
+.ul_info{
+    margin-top: 50px;
+    display: flex;
+    gap: 370px;
+    
+}
+.ul_info p {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+.ul_info h3 {
+  color: #ECE7E3;
+}
+.ul_info2{
+    margin-top: 70px;
+    display: flex;
+    gap: 470px;
+}
+.ul_info2 p {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+.ul_info2 h3 {
+  color: #ECE7E3;
+}
+
+.section3{
+    width: 1450px;
+    margin: auto; 
+}
+.img1{
+    margin-top: 20px;
+}
+.icons{
+   margin-left: 1500px;
+   width: 255px;
+   height: 157px;
+   top: 780px;
+   left: 1665px;
+   gap: 0px;
+   border-radius: 10px 0px 0px 10px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+   background-color: #171717;
+   
+}
+.img_info{
+    width: Hug (22px)px;
+height: Hug (30px)px;
+gap: 10px;
+opacity: 0px;
+
+
+}
+.icons1{
+    margin-top: 15px;
+    width: 255px;
+    height: 60px;
+    display: flex;
+    border: solid 1px white;
+    color: #ECE7E3;
+}
+.icons2{
+    margin-top: 17px;
+    width: 255px;
+    height: 60px;
+    display: flex;
+    border: solid 1px white;
+    color: #ECE7E3;
+}
+.img_bc{
+    margin-top: 150px;
+    width: 2340px;
+    margin: auto;
+}
